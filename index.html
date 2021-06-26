@@ -62,6 +62,58 @@
                 </tr>
             </tbody>
         </table>
+
+        <br> <!--adds space-->
+        <hr> <!--created a line-->
+        <br>
+
+        <!--Forms-->
+        <form action="process.php" method="POST"> <!--more advanced stuff-->
+            <div> <!--separates things in different lines-->
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="Enter first name">
+            </div> 
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        <!--Button-->
+        <button>Click Me</button>
+
         <div style="margin-top:500px"></div>
     </body>
 </html>
